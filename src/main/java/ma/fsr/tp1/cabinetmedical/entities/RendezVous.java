@@ -1,5 +1,6 @@
 package ma.fsr.tp1.cabinetmedical.entities;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -20,10 +21,14 @@ public class RendezVous {
 
     @ManyToOne
     @JoinColumn(name = "patient_id")
+    @JsonIgnore
+
     private Patient patient;
 
     @ManyToOne
     @JoinColumn(name = "medecin_id")
+    @JsonIgnore
+
     private Medecin medecin;
 
     public RendezVous(LocalDate dateRdv, Statu statu, Patient patient, Medecin medecin) {
