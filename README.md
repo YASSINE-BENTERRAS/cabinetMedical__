@@ -37,7 +37,7 @@ Le projet met en pratique :
 - `DELETE /patients`
 
 ### Medecin
-- `GET /patients`
+- `GET /Medecin`
 - `POST /Medecin`
 - `UPDATE /Medecin`
 - `DELETE /Medecin`
