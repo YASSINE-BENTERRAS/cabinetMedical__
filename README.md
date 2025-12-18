@@ -50,17 +50,6 @@ Le projet met en pratique :
 
 ---
 
-
-## Conclusion
-
-Ce TP a permis de :
-- comprendre l’architecture d’une application Spring Boot
-- modéliser un système réel (cabinet médical)
-- créer et tester des API REST
-- gérer les relations JPA entre entités
-
----
-
 ## Réalisé par
 
 Yassine Ben Terras 
