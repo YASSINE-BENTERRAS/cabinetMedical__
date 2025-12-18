@@ -10,43 +10,25 @@
 
 ---
 
-## Objectif du TP
-
-L’objectif de ce TP est de développer une **API REST Spring Boot** permettant la gestion d’un **cabinet médical**, incluant :
-
-- les patients
-- les médecins
-- les rendez-vous
-- les consultations
-
-Le projet met en pratique :
-- Spring Web
-- Spring Data JPA
-- la modélisation des entités
-- les relations entre entités
-- les tests des endpoints via Postman
-
----
-
 ##  Endpoints REST
 
 ### Patient
-- `GET /patients`
-- `POST /patients`
-- `UPDATE /patients`
-- `DELETE /patients`
+- GET /patients
+- POST /patients
+- UPDATE /patients
+- DELETE /patients
 
 ### Medecin
-- `GET /Medecin`
-- `POST /Medecin`
-- `UPDATE /Medecin`
-- `DELETE /Medecin`
+- GET /Medecin
+- POST /Medecin
+- UPDATE /Medecin
+- DELETE /Medecin
 
 ### Rendez-vous
-- `GET /rendezVous`
-- `POST /rendezVous`
-- `UPDATE /rendezVous`
-- `DELETE /rendezVous`
+- GET /rendezVous
+- POST /rendezVous
+- UPDATE /rendezVous
+- DELETE /rendezVous
 
 ---
 
